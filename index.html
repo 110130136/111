@@ -1,33 +1,33 @@
 <html>
 <head>
 <style>
-  h1{
-  color : green;
-  font-size:2.5em;
-  }
-  h2 {
-  color: yellowgreen;
-  font-size:1em;
-  }
-  p{
-  color : red;
-  }
-  li{
-  color : orange;
-  }
+#container{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+#item1{
+background-color:red;
+}
+#item2{
+background-color:yellow;
+}
+#item3{
+background-color:green;
+}
 </style>
 </head>
 <body>
-<h1> heading </h1>
-<h2> heading 2</h2>
-<h1 style=" font-size:2.5em;color:red;
-border: dotted 3px #2196f3;"> another heading </h1>
-<p> paragraph 1</p>
-<ul>
-<li> item 1</li>
-<li> item 2</li>
-<li> item 3</li>
-</ul>
+<div id="container">
+
+<div id="item1">1</div>
+<div id="item2">2</div>
+<div id="item3">3</div>
+
+</div>
 
 </body>
 </html>
